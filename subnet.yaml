@@ -1,0 +1,16 @@
+Type: AWS::EC2::Subnet
+Properties:
+  AssignIpv6AddressOnCreation: Boolean
+  AvailabilityZone: String
+  AvailabilityZoneId: String
+  CidrBlock: String
+  EnableDns64: Boolean
+  Ipv6CidrBlock: String
+  Ipv6Native: Boolean
+  MapPublicIpOnLaunch: Boolean
+  OutpostArn: String
+  PrivateDnsNameOptionsOnLaunch:
+    PrivateDnsNameOptionsOnLaunch
+  Tags:
+    - Tag
+  VpcId: String

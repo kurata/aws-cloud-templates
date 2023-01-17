@@ -1,0 +1,5 @@
+Type: AWS::EC2::RouteTable
+Properties:
+  Tags:
+    - Tag
+  VpcId: String

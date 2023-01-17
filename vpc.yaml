@@ -1,0 +1,10 @@
+Type: AWS::EC2::VPC
+Properties:
+  CidrBlock: 10.17.0.0/16
+  EnableDnsHostnames: Boolean
+  EnableDnsSupport: Boolean
+  InstanceTenancy: String
+  Ipv4IpamPoolId: String
+  Ipv4NetmaskLength: Integer
+  Tags:
+    - Tag
